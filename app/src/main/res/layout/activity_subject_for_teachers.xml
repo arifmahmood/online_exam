@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.graviton.myapplication.SubjectForTeachers"
+    android:background="#31b9a1">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:id="@+id/teacherPhysics"
+        android:background="#31b9a5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:id="@+id/teacherChemistry"
+        android:layout_below="@+id/teacherPhysics"
+        android:layout_alignRight="@+id/teacherPhysics"
+        android:layout_alignEnd="@+id/teacherPhysics"
+        android:background="#31b9a5" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Mathematics"
+        android:id="@+id/teacherMath"
+        android:layout_below="@+id/teacherChemistry"
+        android:layout_alignRight="@+id/teacherChemistry"
+        android:layout_alignEnd="@+id/teacherChemistry"
+        android:background="#31b9a5" />
+</RelativeLayout>

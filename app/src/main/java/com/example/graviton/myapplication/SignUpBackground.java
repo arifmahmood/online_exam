@@ -192,7 +192,7 @@ public class SignUpBackground extends AsyncTask<String,Void,String> {
                 bufferedWriter.flush();
                 bufferedWriter.close();
                 os.close();
-
+                //kjdkfjk
                 InputStream inputStream = httpUrlConnection.getInputStream();
                 inputStream.close();
                 httpUrlConnection.disconnect();
